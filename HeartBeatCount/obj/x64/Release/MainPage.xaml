@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="HeartBeatCount.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HeartBeatCount"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<StackPanel>
+		<Button x:ConnectionId='1' Name="MeasureButton" 
+						Content="Start" 
+						                           
+						Width="100" 
+						Height="50" />
+		<TextBlock x:ConnectionId='2' Name="ResultTextBlock" />
+		<TextBlock x:ConnectionId='3' Name="ConclusionTextBlock" />
+	</StackPanel>    
+
+</Page>
+
